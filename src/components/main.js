@@ -3,11 +3,11 @@ import DataArea from "./DataArea";
 import "../styles/Main.css";
 
 export default class Main extends Component {
-   render() {
-      return (
-         <>
-            <DataArea />
-         </>
-      );
-   }
+  render() {
+    return (
+      <>
+        <DataArea />
+      </>
+    );
+  }
 }

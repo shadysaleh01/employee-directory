@@ -2,11 +2,11 @@ import React from 'react';
 import "../styles/Wrapper.css";
 
 function Wrapper({ children }) {
-   return (
+  return (
       <div className="wrapper">
-         { children}
+        { children }
       </div>
-   );
+  );
 }
 
 export default Wrapper;
